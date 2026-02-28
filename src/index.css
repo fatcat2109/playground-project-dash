@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-zinc-950: #09090b;
+  --color-zinc-900: #18181b;
+  --color-zinc-800: #27272a;
+  
+  --font-sans: "Satoshi", "Geist", "Inter", sans-serif;
+  --font-mono: "Geist Mono", "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-zinc-950);
+    color: white;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Cockpit / Liquid Glass Utilities defined in SKILL.md */
+@layer utilities {
+  .liquid-glass {
+    @apply bg-zinc-900/40 backdrop-blur-xl border border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.05)];
+  }
+  
+  .data-bank-divider {
+    @apply border-b border-zinc-800/80 last:border-0;
+  }
+  
+  .mono-number {
+    @apply font-mono tracking-tight;
+  }
+}

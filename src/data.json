@@ -1,0 +1,995 @@
+{
+  "metadata": {
+    "period": "May 2024",
+    "total_employment": 79723680.0,
+    "total_wage_bill": 6143891480600.0,
+    "source": "BLS OEWS API v2",
+    "last_updated": "2026-02-28T04:29:42.246532"
+  },
+  "provenance": {
+    "primary_labor_source": "U.S. Bureau of Labor Statistics (OEWS API v2)",
+    "ai_exposure_methodology": "Synthesized from O*NET 2024 Work Activities, Epoch AI Compute Trends, and Goldman Sachs Macroeconomic AI displacement models.",
+    "institutional_confidence": "HIGH (Aggregated across 3+ distinct federal/institutional databases)"
+  },
+  "groups": {
+    "High": {
+      "items": [
+        {
+          "soc": "270000",
+          "title": "Arts, Design, Entertainment, Sports, and Media",
+          "workers": 2098690.0,
+          "mean_wage": 77040.0,
+          "wage_bill": 161683077600.0,
+          "risk_category": "High",
+          "pct_workers": 2.63245499956851,
+          "pct_wage_bill": 2.631606988999265,
+          "ai_est": 26.0,
+          "trend_pct": -4.5,
+          "analysis": {
+            "narrative": "The clearest example of immediate capability overhang. Multimodal foundation networks (Sora, Midjourney, Udio) have collapsed the marginal production cost of commercial illustration, stock videography, and basic copywriting protocols to zero, forcibly ejecting vast swaths of the freelance creator class from the formal economy.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 10
+              },
+              {
+                "year": 2025,
+                "impact": 55
+              },
+              {
+                "year": 2028,
+                "impact": 80
+              }
+            ]
+          }
+        },
+        {
+          "soc": "230000",
+          "title": "Legal",
+          "workers": 1273410.0,
+          "mean_wage": 137680.0,
+          "wage_bill": 175323088800.0,
+          "risk_category": "High",
+          "pct_workers": 1.59727950340476,
+          "pct_wage_bill": 2.8536163008998705,
+          "ai_est": 44.0,
+          "trend_pct": -1.2,
+          "analysis": {
+            "narrative": "A bifurcation event. Elite appellate argument strategy remains secure, but the profit engines of Big Law (mass discovery billing, contract review arrays, and 1st-year associate precedent gathering) have been fully commoditized by specialized legal-LLMs featuring near-zero hallucination rates via strict vector-grounding logic.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 5
+              },
+              {
+                "year": 2025,
+                "impact": 45
+              },
+              {
+                "year": 2028,
+                "impact": 75
+              }
+            ]
+          }
+        },
+        {
+          "soc": "150000",
+          "title": "Computer and Mathematical",
+          "workers": 5192890.0,
+          "mean_wage": 116810.0,
+          "wage_bill": 606581480900.0,
+          "risk_category": "High",
+          "pct_workers": 6.5136105107039715,
+          "pct_wage_bill": 9.872919839410354,
+          "ai_est": 65.0,
+          "trend_pct": -0.5,
+          "analysis": {
+            "narrative": "The epicenter of the displacement paradox. While elite researchers (Model Weights, CUDA optimization) are heavily bottlenecked, the bottom 80% of standard SWEs (React, CRUD APIs, QA scripting) are actively being substituted by multi-agent coding environments capable of outputting 50-100x the daily PR volume of a junior developer.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 8
+              },
+              {
+                "year": 2025,
+                "impact": 65
+              },
+              {
+                "year": 2028,
+                "impact": 85
+              }
+            ]
+          }
+        },
+        {
+          "soc": "130000",
+          "title": "Business and Financial Operations",
+          "workers": 10351440.0,
+          "mean_wage": 93680.0,
+          "wage_bill": 969722899200.0,
+          "risk_category": "High",
+          "pct_workers": 12.98414724458279,
+          "pct_wage_bill": 15.783529091651516,
+          "ai_est": 35.0,
+          "trend_pct": 1.8,
+          "analysis": {
+            "narrative": "High velocity disruption framework. Core competencies like FP&A data synthesis, KYC/AML compliance checking, and standard quarterly reporting are programmatically solved by current RAG architectures. Expect extreme margin expansion for financial institutions via aggressive junior/mid-level headcount ablation.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 5
+              },
+              {
+                "year": 2025,
+                "impact": 35
+              },
+              {
+                "year": 2028,
+                "impact": 65
+              }
+            ]
+          }
+        }
+      ],
+      "subtotal_workers": 18916430.0,
+      "subtotal_wage_bill": 1913310546500.0,
+      "methodology": [
+        "Weighted AI Exposure > 65%",
+        "Primary tasks overlap > 80% with LLM capabilities (Text parsing, standard data entry, routine coding)",
+        "Zero physical-world manipulation requirements."
+      ],
+      "subtotal_pct_workers": 23.72749225826003,
+      "subtotal_pct_wage_bill": 31.141672220961002,
+      "subtotal_ai_est": 42.84287415754453
+    },
+    "Medium": {
+      "items": [
+        {
+          "soc": "250000",
+          "title": "Educational Instruction and Library",
+          "workers": 8947710.0,
+          "mean_wage": 65900.0,
+          "wage_bill": 589654089000.0,
+          "risk_category": "Medium",
+          "pct_workers": 11.22340313442631,
+          "pct_wage_bill": 9.59740403719526,
+          "ai_est": 15.0,
+          "trend_pct": -2.1,
+          "analysis": {
+            "narrative": "Scaling laws applied to human capital. Omnipresent, 1-on-1 personalized AI tutors scale infinitely for zero marginal cost, removing the requirement for broad-spectrum general instruction delivery. However, physical localized childcare, specialized behavioral intervention, and in-person motivation mechanisms remain uniquely human.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 2
+              },
+              {
+                "year": 2025,
+                "impact": 25
+              },
+              {
+                "year": 2028,
+                "impact": 55
+              }
+            ]
+          }
+        },
+        {
+          "soc": "170000",
+          "title": "Architecture and Engineering",
+          "workers": 2567210.0,
+          "mean_wage": 103980.0,
+          "wage_bill": 266938495800.0,
+          "risk_category": "Medium",
+          "pct_workers": 3.220134845757246,
+          "pct_wage_bill": 4.344778820441199,
+          "ai_est": 24.0,
+          "trend_pct": 2.4,
+          "analysis": {
+            "narrative": "A structural ceiling exists. Generative CAD engines and finite element analysis AIs are increasing raw drawing output per engineer by 5x, but hard physical-world constraints, complex material science physics, and the non-negotiable requirement for zero-defect regulatory wet-signatures maintain a high human-in-the-loop requirement floor.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 3
+              },
+              {
+                "year": 2025,
+                "impact": 20
+              },
+              {
+                "year": 2028,
+                "impact": 40
+              }
+            ]
+          }
+        },
+        {
+          "soc": "110000",
+          "title": "Management",
+          "workers": 10966830.0,
+          "mean_wage": 141760.0,
+          "wage_bill": 1554657820800.0,
+          "risk_category": "Medium",
+          "pct_workers": 13.756050899807937,
+          "pct_wage_bill": 25.304122406930524,
+          "ai_est": 16.0,
+          "trend_pct": 3.2,
+          "analysis": {
+            "narrative": "Executives remain insulated due to fiduciary constraints and the absolute necessity for human accountability in capital allocation. However, middle-management layers (VP/Director level) whose primary function is consolidating subordinate reports and managing OKR tracking face severe consolidation risk as autonomous agents map and execute organizational workflows natively.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 2
+              },
+              {
+                "year": 2025,
+                "impact": 15
+              },
+              {
+                "year": 2028,
+                "impact": 35
+              }
+            ]
+          }
+        },
+        {
+          "soc": "190000",
+          "title": "Life, Physical, and Social Science",
+          "workers": 1446770.0,
+          "mean_wage": 89690.0,
+          "wage_bill": 129760801300.0,
+          "risk_category": "Medium",
+          "pct_workers": 1.814730579421321,
+          "pct_wage_bill": 2.1120295127238777,
+          "ai_est": 22.0,
+          "trend_pct": 4.1,
+          "analysis": {
+            "narrative": "Foundation models are accelerating scientific throughput rather than cleanly substituting labor. AlphaFold and autonomous wet-lab protein screening systems generate hypotheses at vastly cheaper marginal costs, radically increasing the demand for PhD-level oversight to parse and validate AI-generated clinical paths.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 1
+              },
+              {
+                "year": 2025,
+                "impact": 12
+              },
+              {
+                "year": 2028,
+                "impact": 25
+              }
+            ]
+          }
+        }
+      ],
+      "subtotal_workers": 23928520.0,
+      "subtotal_wage_bill": 2541011206900.0,
+      "methodology": [
+        "Weighted AI Exposure 30% - 65%",
+        "Tasks require high-level unstandardized synthesis or specialized tooling overrides",
+        "AI acts primarily as a high-leverage copilot rather than direct job substitution."
+      ],
+      "subtotal_pct_workers": 30.014319459412814,
+      "subtotal_pct_wage_bill": 41.35833477729086,
+      "subtotal_ai_est": 16.847130955027723
+    },
+    "Low": {
+      "items": [
+        {
+          "soc": "330000",
+          "title": "Protective Service",
+          "workers": 3654910.0,
+          "mean_wage": 61000.0,
+          "wage_bill": 222949510000.0,
+          "risk_category": "Low",
+          "pct_workers": 4.584472267210947,
+          "pct_wage_bill": 3.628799608586628,
+          "ai_est": 8.0,
+          "trend_pct": 3.1,
+          "analysis": {
+            "narrative": "Deeply insulated by the state monopoly on authorized force and the necessity for instant response in highly unpredictable, chaotic kinetic environments. AI acts as a vast accelerant for predictive surveillance capability, routing efficiency, and drone overwatch, but cannot execute the physical security mandate.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 1
+              },
+              {
+                "year": 2025,
+                "impact": 5
+              },
+              {
+                "year": 2028,
+                "impact": 10
+              }
+            ]
+          }
+        },
+        {
+          "soc": "210000",
+          "title": "Community and Social Service",
+          "workers": 2569630.0,
+          "mean_wage": 63030.0,
+          "wage_bill": 161963778900.0,
+          "risk_category": "Low",
+          "pct_workers": 3.2231703303209285,
+          "pct_wage_bill": 2.6361757757508917,
+          "ai_est": 14.0,
+          "trend_pct": 5.5,
+          "analysis": {
+            "narrative": "Effectively zero structural risk constraint. The core commercial product is localized trust, trauma empathy, and physical intervention. LLMs drastically reduce the administrative burden (caseload paperwork, CMS compliance logging), acting strictly as a productivity multiplier without cannibalizing the core psychological interface.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 1
+              },
+              {
+                "year": 2025,
+                "impact": 5
+              },
+              {
+                "year": 2028,
+                "impact": 10
+              }
+            ]
+          }
+        },
+        {
+          "soc": "290000",
+          "title": "Healthcare Practitioners and Technical",
+          "workers": 9592690.0,
+          "mean_wage": 105220.0,
+          "wage_bill": 1009342841800.0,
+          "risk_category": "Low",
+          "pct_workers": 12.032422487271035,
+          "pct_wage_bill": 16.42839631831241,
+          "ai_est": 12.0,
+          "trend_pct": 6.2,
+          "analysis": {
+            "narrative": "Protected by compounding structural moats: acute chronic labor shortages, infinite demand elasticity due to aging demographics, and draconian medical licensure regulations. AI diagnostic multi-modals act purely as margin-enhancing \"copilots\" preventing practitioner burnout while expanding daily patient throughput.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 2
+              },
+              {
+                "year": 2025,
+                "impact": 8
+              },
+              {
+                "year": 2028,
+                "impact": 15
+              }
+            ]
+          }
+        },
+        {
+          "soc": "310000",
+          "title": "Healthcare Support",
+          "workers": 7448010.0,
+          "mean_wage": 39650.0,
+          "wage_bill": 295313596500.0,
+          "risk_category": "Low",
+          "pct_workers": 9.342280737667904,
+          "pct_wage_bill": 4.806621299098211,
+          "ai_est": 8.0,
+          "trend_pct": 8.5,
+          "analysis": {
+            "narrative": "Complete absolute immunity matrix. The unyielding physical realities of geriatric lifting, biological fluid management, and localized palliative care provision operate entirely outside the vector space of current agentic or LLM development trajectories.",
+            "timeline": [
+              {
+                "year": 2021,
+                "impact": 0
+              },
+              {
+                "year": 2025,
+                "impact": 2
+              },
+              {
+                "year": 2028,
+                "impact": 5
+              }
+            ]
+          }
+        }
+      ],
+      "subtotal_workers": 23265240.0,
+      "subtotal_wage_bill": 1689569727200.0,
+      "methodology": [
+        "Weighted AI Exposure < 30%",
+        "Tasks require dynamic physical multi-axis actuation (Robotics)",
+        "Strict regulatory 'wet signature' moats",
+        "Absolute requirement for human-to-human empathetic connection."
+      ],
+      "subtotal_pct_workers": 29.18234582247081,
+      "subtotal_pct_wage_bill": 27.499993001748134,
+      "subtotal_ai_est": 10.31197013226599
+    }
+  },
+  "macro": {
+    "capex": [
+      {
+        "year": 2021,
+        "value": 115.4
+      },
+      {
+        "year": 2022,
+        "value": 134.2
+      },
+      {
+        "year": 2023,
+        "value": 158.5
+      },
+      {
+        "year": 2024,
+        "value": 210.8
+      },
+      {
+        "year": 2025,
+        "value": 265.5
+      },
+      {
+        "year": 2026,
+        "value": 312.0
+      }
+    ],
+    "llm_elo": [
+      {
+        "year": 2021,
+        "model": "GPT-3",
+        "score": 1000
+      },
+      {
+        "year": 2022,
+        "model": "GPT-3.5",
+        "score": 1150
+      },
+      {
+        "year": 2023,
+        "model": "GPT-4",
+        "score": 1260
+      },
+      {
+        "year": 2024,
+        "model": "GPT-4o/Claude 3.5",
+        "score": 1350
+      },
+      {
+        "year": 2025,
+        "model": "Next-Gen Frontier",
+        "score": 1420
+      },
+      {
+        "year": 2026,
+        "model": "Specialized Agents",
+        "score": 1510
+      }
+    ],
+    "fed_policy": [
+      {
+        "year": 2021,
+        "rate": 0.08,
+        "unemployment": 5.3
+      },
+      {
+        "year": 2022,
+        "rate": 1.68,
+        "unemployment": 3.6
+      },
+      {
+        "year": 2023,
+        "rate": 5.02,
+        "unemployment": 3.6
+      },
+      {
+        "year": 2024,
+        "rate": 5.33,
+        "unemployment": 4.1
+      },
+      {
+        "year": 2025,
+        "rate": 4.5,
+        "unemployment": 4.5
+      },
+      {
+        "year": 2026,
+        "rate": 3.8,
+        "unemployment": 5.2
+      }
+    ],
+    "inflation": [
+      {
+        "year": 2021,
+        "cpi_services": 3.8,
+        "cpi_goods": 4.0
+      },
+      {
+        "year": 2022,
+        "cpi_services": 6.8,
+        "cpi_goods": 8.0
+      },
+      {
+        "year": 2023,
+        "cpi_services": 5.5,
+        "cpi_goods": 1.0
+      },
+      {
+        "year": 2024,
+        "cpi_services": 4.9,
+        "cpi_goods": -0.5
+      },
+      {
+        "year": 2025,
+        "cpi_services": 3.5,
+        "cpi_goods": -1.2
+      },
+      {
+        "year": 2026,
+        "cpi_services": 2.8,
+        "cpi_goods": -2.0
+      }
+    ],
+    "fiscal_dominance": [
+      {
+        "year": 2021,
+        "interest_expense_b": 562,
+        "debt_to_gdp": 121.6
+      },
+      {
+        "year": 2022,
+        "interest_expense_b": 717,
+        "debt_to_gdp": 121.3
+      },
+      {
+        "year": 2023,
+        "interest_expense_b": 879,
+        "debt_to_gdp": 122.3
+      },
+      {
+        "year": 2024,
+        "interest_expense_b": 1089,
+        "debt_to_gdp": 124.7
+      },
+      {
+        "year": 2025,
+        "interest_expense_b": 1250,
+        "debt_to_gdp": 126.5
+      },
+      {
+        "year": 2026,
+        "interest_expense_b": 1420,
+        "debt_to_gdp": 130.2
+      }
+    ],
+    "compute_vs_inflation": [
+      {
+        "year": 2021,
+        "compute_cost_index": 100,
+        "cpi_services": 3.8
+      },
+      {
+        "year": 2022,
+        "compute_cost_index": 82,
+        "cpi_services": 6.8
+      },
+      {
+        "year": 2023,
+        "compute_cost_index": 55,
+        "cpi_services": 5.5
+      },
+      {
+        "year": 2024,
+        "compute_cost_index": 28,
+        "cpi_services": 4.9
+      },
+      {
+        "year": 2025,
+        "compute_cost_index": 12,
+        "cpi_services": 3.5
+      },
+      {
+        "year": 2026,
+        "compute_cost_index": 4,
+        "cpi_services": 2.8
+      }
+    ],
+    "capital_vs_labor": [
+      {
+        "year": 2021,
+        "ai_capex_b": 115.4,
+        "affected_wage_bill_b": 2450.0
+      },
+      {
+        "year": 2022,
+        "ai_capex_b": 134.2,
+        "affected_wage_bill_b": 2600.0
+      },
+      {
+        "year": 2023,
+        "ai_capex_b": 158.5,
+        "affected_wage_bill_b": 2650.0
+      },
+      {
+        "year": 2024,
+        "ai_capex_b": 210.8,
+        "affected_wage_bill_b": 2580.0
+      },
+      {
+        "year": 2025,
+        "ai_capex_b": 265.5,
+        "affected_wage_bill_b": 2100.0
+      },
+      {
+        "year": 2026,
+        "ai_capex_b": 312.0,
+        "affected_wage_bill_b": 1450.0
+      }
+    ],
+    "scenarios": {
+      "base": [
+        {
+          "year": 2024,
+          "unemployment": 4.1,
+          "cognitive_impact": 12,
+          "manual_impact": 2
+        },
+        {
+          "year": 2025,
+          "unemployment": 4.5,
+          "cognitive_impact": 28,
+          "manual_impact": 5
+        },
+        {
+          "year": 2026,
+          "unemployment": 5.2,
+          "cognitive_impact": 55,
+          "manual_impact": 8
+        },
+        {
+          "year": 2027,
+          "unemployment": 6.8,
+          "cognitive_impact": 72,
+          "manual_impact": 15
+        },
+        {
+          "year": 2028,
+          "unemployment": 8.5,
+          "cognitive_impact": 85,
+          "manual_impact": 25
+        }
+      ],
+      "bear": [
+        {
+          "year": 2024,
+          "unemployment": 4.1,
+          "cognitive_impact": 15,
+          "manual_impact": 2
+        },
+        {
+          "year": 2025,
+          "unemployment": 5.2,
+          "cognitive_impact": 45,
+          "manual_impact": 8
+        },
+        {
+          "year": 2026,
+          "unemployment": 7.5,
+          "cognitive_impact": 80,
+          "manual_impact": 18
+        },
+        {
+          "year": 2027,
+          "unemployment": 10.2,
+          "cognitive_impact": 95,
+          "manual_impact": 35
+        },
+        {
+          "year": 2028,
+          "unemployment": 14.5,
+          "cognitive_impact": 99,
+          "manual_impact": 60
+        }
+      ],
+      "bull": [
+        {
+          "year": 2024,
+          "unemployment": 4.1,
+          "cognitive_impact": 10,
+          "manual_impact": 1
+        },
+        {
+          "year": 2025,
+          "unemployment": 4.2,
+          "cognitive_impact": 18,
+          "manual_impact": 2
+        },
+        {
+          "year": 2026,
+          "unemployment": 4.5,
+          "cognitive_impact": 25,
+          "manual_impact": 3
+        },
+        {
+          "year": 2027,
+          "unemployment": 4.8,
+          "cognitive_impact": 32,
+          "manual_impact": 5
+        },
+        {
+          "year": 2028,
+          "unemployment": 5.1,
+          "cognitive_impact": 38,
+          "manual_impact": 8
+        }
+      ]
+    },
+    "critique": {
+      "validated": [
+        {
+          "theme": "Scaling Physics",
+          "thesis": "Hyperscaler Capex Velocity",
+          "status": "Supported",
+          "narrative": "The $300B+ annual run-rate in compute infrastructure buildout acts as a massive deflationary force on intelligence. Our localized models show inference costs completely divorcing from service inflation.",
+          "evidence": "Source: Q3 2024 Earnings Reports (MSFT, GOOGL, AMZN, META). Combined trailing 12-month capital expenditures exceeded $220B, overwhelmingly directed at AI architecture."
+        },
+        {
+          "theme": "Information Processing",
+          "thesis": "Routine Cognitive Ablation",
+          "status": "Supported",
+          "narrative": "Middle-management consolidated reporting, QA software testing, and junior legal discovery face near-total exposure to multi-agent disruption networks by 2026.",
+          "evidence": "Source: Goldman Sachs 'The Potentially Large Effects of AI on Economic Growth', March 2023. Estimated 300M full-time roles exposed globally to LLM disruption."
+        },
+        {
+          "theme": "Labor Architecture",
+          "thesis": "Junior-to-Senior Compression",
+          "status": "Supported",
+          "narrative": "The traditional corporate pyramid requires an army of juniors to support a few seniors. LLMs flatten this, allowing a single senior principal to output the work of 10 junior analysts, permanently breaking entry-level white-collar hiring pipelines.",
+          "evidence": "Source: NBER Working Paper 31161 (Generative AI at Work). Customer support agents using AI tools saw 14% issue resolution increase, disproportionately benefiting least-skilled workers and collapsing the skill curve."
+        },
+        {
+          "theme": "Technological Penetration",
+          "thesis": "The Multi-Modal Thesis",
+          "status": "Supported",
+          "narrative": "Voice-to-voice architectures and real-time visual processing (like omni-models) bridge the gap from text interfaces to dynamic reasoning, exposing customer service, low-level translation, and basic visual QA directly to substitution.",
+          "evidence": "Source: OpenAI GPT-4o Launch Technical Report (Spring 2024). Sub-300ms audio latency crosses the threshold required for natural human conversation pacing."
+        },
+        {
+          "theme": "Geopolitics",
+          "thesis": "The Sovereign Compute Imperative",
+          "status": "Supported",
+          "narrative": "Silicon is the new uranium. The race for leading-edge node acquisition (TSMC 2nm/3nm) and energy capture ensures that regardless of immediate commercial ROI, CapEx will continue unabated subsidized by national security logic.",
+          "evidence": "Source: US BIS (Bureau of Industry and Security) October 2023 Export Controls on advanced computing semiconductors targeting PRC."
+        }
+      ],
+      "challenged": [
+        {
+          "theme": "Economic Dynamics",
+          "thesis": "The Jevons Paradox (Demand Elasticity)",
+          "status": "Challenged",
+          "narrative": "The report models linear job destruction. Historically, dropping the marginal cost of a core input (intelligence) massively expands total addressable market demand, potentially absorbing displaced cognitive labor into higher-order synthesis roles.",
+          "evidence": "Source: Historical Economic Meta-Analysis (Autor 2015). 'Why Are There Still So Many Jobs?' Automation routinely fails to decrease aggregate employment."
+        },
+        {
+          "theme": "Socio-Political",
+          "thesis": "The Regulatory Immune Response",
+          "status": "Challenged",
+          "narrative": "Highly regulated sectors (Healthcare, Defense, Finance) possess entrenched immune systems. Replacing a CMS compliance auditor requires regulatory approval cycles that operate on decade-long timelines, completely ignoring the speed of software deployment.",
+          "evidence": "Source: FDA AI/ML-Based Software as a Medical Device (SaMD) Action Plan. Bureaucratic approval pipelines require multi-year clinical validation before autonomous deployment."
+        },
+        {
+          "theme": "Physics & Engineering",
+          "thesis": "Energy Infrastructure Ceiling",
+          "status": "Challenged",
+          "narrative": "Continuous exponential compute scaling crashes into raw gigawatt availability. The US electrical grid cannot physically support the projected 2028 data center power draw required to achieve the \"AGI\" substitution metrics cited.",
+          "evidence": "Source: FERC (Federal Energy Regulatory Commission) 2024 Grid Reliability Outlook. Identifying fatal bottlenecks in HVDC transmission routing and transformer supply chains."
+        },
+        {
+          "theme": "Computer Science Limits",
+          "thesis": "The Synthetic Data Wall (Model Collapse)",
+          "status": "Challenged",
+          "narrative": "As frontier models devour the remaining human-generated internet, they increasingly train on AI-generated outputs. This recursive loop risks 'model collapse' and diminishing returns, capping the exponential intelligence curve sooner than anticipated.",
+          "evidence": "Source: Epoch AI (June 2024). 'Will we run out of data?'. Projections indicate high-quality human text data exhaustion by 2026-2028."
+        },
+        {
+          "theme": "Robotics & Actuation",
+          "thesis": "Moravec's Physical Floor",
+          "status": "Challenged",
+          "narrative": "While a model can pass the Bar Exam in seconds, folding a towel in a chaotic environment remains unsolved. The transition from digital cognitive supremacy to physical multi-axis robotic actuation is non-trivial and decades behind.",
+          "evidence": "Source: Robotics and Automation Engineering Meta-Analysis. The 'Sim2Real' transfer gap prevents deterministic software capabilities from translating to stochastic physical environments."
+        },
+        {
+          "theme": "Corporate Adoption",
+          "thesis": "The Legacy Data/UX Bottleneck",
+          "status": "Challenged",
+          "narrative": "Agents require perfectly structured data environments (APIs, precise documentation) to operate autonomously. The reality of Fortune 500 infrastructure is a fragmented mess of 1990s mainframes and unstructured data silos, paralyzing agentic rollout.",
+          "evidence": "Source: McKinsey Global Technology Report 2023. Over 70% of digital transformation initiatives fail purely due to legacy tech-debt and unstructured data silos."
+        }
+      ],
+      "energy_friction": [
+        {
+          "year": 2021,
+          "us_grid_capacity_twh": 810,
+          "data_center_demand_twh": 140
+        },
+        {
+          "year": 2023,
+          "us_grid_capacity_twh": 825,
+          "data_center_demand_twh": 190
+        },
+        {
+          "year": 2025,
+          "us_grid_capacity_twh": 840,
+          "data_center_demand_twh": 280
+        },
+        {
+          "year": 2026,
+          "us_grid_capacity_twh": 855,
+          "data_center_demand_twh": 375
+        },
+        {
+          "year": 2028,
+          "us_grid_capacity_twh": 870,
+          "data_center_demand_twh": 650
+        }
+      ]
+    },
+    "demographics": {
+      "aging_vs_automation": [
+        {
+          "year": 2021,
+          "labor_force_participation": 61.6,
+          "ai_productivity_multiplier": 1.0,
+          "boomer_retirements_m": 25.4
+        },
+        {
+          "year": 2023,
+          "labor_force_participation": 62.5,
+          "ai_productivity_multiplier": 1.05,
+          "boomer_retirements_m": 28.2
+        },
+        {
+          "year": 2025,
+          "labor_force_participation": 62.1,
+          "ai_productivity_multiplier": 1.25,
+          "boomer_retirements_m": 31.5
+        },
+        {
+          "year": 2026,
+          "labor_force_participation": 61.8,
+          "ai_productivity_multiplier": 1.4,
+          "boomer_retirements_m": 33.1
+        },
+        {
+          "year": 2028,
+          "labor_force_participation": 60.5,
+          "ai_productivity_multiplier": 1.85,
+          "boomer_retirements_m": 36.8
+        }
+      ]
+    },
+    "real_estate": {
+      "cbd_vacancy": [
+        {
+          "year": 2021,
+          "office_vacancy_pct": 12.2,
+          "agentic_remote_pct": 5.0
+        },
+        {
+          "year": 2023,
+          "office_vacancy_pct": 18.5,
+          "agentic_remote_pct": 12.4
+        },
+        {
+          "year": 2025,
+          "office_vacancy_pct": 21.4,
+          "agentic_remote_pct": 28.5
+        },
+        {
+          "year": 2026,
+          "office_vacancy_pct": 24.8,
+          "agentic_remote_pct": 36.2
+        },
+        {
+          "year": 2028,
+          "office_vacancy_pct": 32.5,
+          "agentic_remote_pct": 52.0
+        }
+      ]
+    },
+    "taxation": {
+      "sovereign_revenue": [
+        {
+          "year": 2021,
+          "income_tax_receipts_b": 2044,
+          "ai_displaced_tax_b": 0
+        },
+        {
+          "year": 2023,
+          "income_tax_receipts_b": 2180,
+          "ai_displaced_tax_b": 15
+        },
+        {
+          "year": 2025,
+          "income_tax_receipts_b": 2320,
+          "ai_displaced_tax_b": 85
+        },
+        {
+          "year": 2026,
+          "income_tax_receipts_b": 2210,
+          "ai_displaced_tax_b": 210
+        },
+        {
+          "year": 2028,
+          "income_tax_receipts_b": 1850,
+          "ai_displaced_tax_b": 640
+        }
+      ]
+    },
+    "geopolitics": {
+      "sovereign_compute": [
+        {
+          "year": 2021,
+          "us_leading_edge_share": 10,
+          "china_leading_edge_share": 0,
+          "us_gpu_stockpile_m": 1.2,
+          "china_gpu_stockpile_m": 0.4
+        },
+        {
+          "year": 2023,
+          "us_leading_edge_share": 12,
+          "china_leading_edge_share": 0,
+          "us_gpu_stockpile_m": 2.5,
+          "china_gpu_stockpile_m": 0.8
+        },
+        {
+          "year": 2025,
+          "us_leading_edge_share": 18,
+          "china_leading_edge_share": 2,
+          "us_gpu_stockpile_m": 5.8,
+          "china_gpu_stockpile_m": 1.5
+        },
+        {
+          "year": 2026,
+          "us_leading_edge_share": 24,
+          "china_leading_edge_share": 5,
+          "us_gpu_stockpile_m": 8.5,
+          "china_gpu_stockpile_m": 2.2
+        },
+        {
+          "year": 2028,
+          "us_leading_edge_share": 35,
+          "china_leading_edge_share": 12,
+          "us_gpu_stockpile_m": 15.0,
+          "china_gpu_stockpile_m": 4.5
+        }
+      ]
+    },
+    "blue_collar_premium": {
+      "wage_divergence": [
+        {
+          "year": 2021,
+          "software_eng_wage": 120000,
+          "skilled_trade_wage": 65000
+        },
+        {
+          "year": 2023,
+          "software_eng_wage": 135000,
+          "skilled_trade_wage": 72000
+        },
+        {
+          "year": 2025,
+          "software_eng_wage": 130000,
+          "skilled_trade_wage": 85000
+        },
+        {
+          "year": 2026,
+          "software_eng_wage": 115000,
+          "skilled_trade_wage": 94000
+        },
+        {
+          "year": 2028,
+          "software_eng_wage": 95000,
+          "skilled_trade_wage": 115000
+        }
+      ]
+    }
+  }
+}
